@@ -13,10 +13,13 @@ Required libraries:
 
 Data collection:
 * [librealsense](https://github.com/IntelRealSense/librealsense) - driver for realsense camera
+
+
 Pose Estimation:
 * [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) - human pose estimation library
 * Numpy
 * opencv-python
+
 Virtual character animation:
 
 ## Results
