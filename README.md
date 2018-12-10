@@ -25,6 +25,8 @@ Virtual character animation:
 
 ## Results
 
+<video src="./example_results/p1_rgb.mp4" width="320" height="200" controls preload></video>
+
 
 
 ## Authors
