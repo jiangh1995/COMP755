@@ -26,7 +26,7 @@ Virtual character animation:
 ## Results
 
 <p align="center">
-    <img src="doc/media/pose_face_hands.gif", width="480">
+    <img src="example_results/p1_animation.mp4", width="480">
 </p>
 
 
