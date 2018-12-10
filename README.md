@@ -1,78 +1,32 @@
 # COMP755
 Real Time Human Pose Detection and Reproduction on Animated Character
 
-# COMP781 Robotics Course Project
-
-Spring 2018, Project title: Balancing Complexity and Optimality of Rapidly-exploring Randomized Tree
-
 ## Getting Started
 
-This project implement an RRT variant that combines RRT-Connect and RRTstar.
+This project contains 3 modules: data collection, pose estimation and virtual character animation.
 
 ### Prerequisites
 
-Ubuntu 14.04 is recommended.
+Ubuntu 16.04 is recommended and [realsense camera](https://realsense.intel.com/) and [Maya](https://www.autodesk.com/products/maya/overview) is required.
 
 Required libraries:
+Data collection:
+* [librealsense](https://github.com/IntelRealSense/librealsense) - driver for realsense camera
+Pose Estimation:
+* [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) - human pose estimation library
+* Numpy
+* opencv-python
+Virtual character animation:
 
-* [OMPL](https://ompl.kavrakilab.org/) - the Open Motion Planning Library (v1.3.2)
-* [FCL](https://github.com/flexible-collision-library/fcl/releases) - Flexible Collision Library (v0.3.4)
-* [Boost](https://www.boost.org/) - v1.66.0
-* [CCD](https://github.com/danfis/libccd)
-* [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page) - v3.3.4
-* [Catkin](https://github.com/ros/catkin) - which is usually installed with ROS, ROS indigo is recommended for Baxter. (Catkin is not required when doing pure simulation)
-
-
-### Installing
-
-After all reqired libraries are built, we can start building this project using CMake:
-
-```
-git clone git@github.com:mengyu-fu/COMP781.git
-cd COMP781
-mkdir build
-cd build
-cmake ..
-```
-
-After that, we can use
-
-```
-ccmake .
-```
-
-and modify the paths for the libraries. Finally, we can do:
-
-```
-make
-```
-
-## Running the tests
-
-To run the test, we first need to make it:
+## Results
 
 
-```
-make run-test
-```
-
-After that, a test is ready to run. We can use "--help" to check available input parameters:
-
-```
-./src/apps/run-test --help
-```
-
-Now, try to run with your own parameters.
 
 ## Authors
 
 * **Mengyu Fu** - *PhD Student* - [Homepage](http://mengyu.web.unc.edu/)
 
 * **Hao Jiang** - *PhD Student* - [Homepage](http://cs.unc.edu/~haojiang/)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
