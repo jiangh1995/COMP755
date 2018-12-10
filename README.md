@@ -21,6 +21,7 @@ Pose Estimation:
 * opencv-python
 
 Virtual character animation:
+* [Maya](https://www.autodesk.com/products/maya/overview) 
 
 ## Results
 
