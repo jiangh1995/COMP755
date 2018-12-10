@@ -26,7 +26,7 @@ Virtual character animation:
 ## Results
 
 <p align="center">
-    <img src="example_results/test_result.gif", width="640">
+    <img src="example_results/test_result.gif", width="800">
 </p>
 
 
