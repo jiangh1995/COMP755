@@ -23,7 +23,7 @@ Pose Estimation:
 Virtual character animation:
 * [Maya](https://www.autodesk.com/products/maya/overview) 
 
-## Results
+## Example Results
 
 <p align="center">
     <img src="example_results/test_result.gif", width="800">
