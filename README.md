@@ -10,15 +10,24 @@ This project contains 3 modules: data collection, pose estimation and virtual ch
 Ubuntu 16.04 is recommended and [realsense camera](https://realsense.intel.com/) and [Maya](https://www.autodesk.com/products/maya/overview) is required.
 
 Required libraries:
+
 Data collection:
 * [librealsense](https://github.com/IntelRealSense/librealsense) - driver for realsense camera
+
+
 Pose Estimation:
 * [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) - human pose estimation library
 * Numpy
 * opencv-python
+
 Virtual character animation:
+* [Maya](https://www.autodesk.com/products/maya/overview) 
 
 ## Results
+
+<p align="center">
+    <img src="doc/media/pose_face_hands.gif", width="480">
+</p>
 
 
 
